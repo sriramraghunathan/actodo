@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/login"
+            path="/"
             element={<Login users={users} setusers={setusers} />}
           ></Route>
           <Route

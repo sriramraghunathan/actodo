@@ -20,7 +20,7 @@ const Signup = (props) => {
   }
   function addUser() {
     setusers([...users, { username: eusername, password: epassword }]);
-    navigate("/login");
+    navigate("/");
   }
 
   return (
@@ -58,7 +58,7 @@ const Signup = (props) => {
           </button>
           <p>
             Already have an account?{" "}
-            <Link className="underline" to={"/login"}>
+            <Link className="underline" to={"/"}>
               Login
             </Link>{" "}
           </p>
